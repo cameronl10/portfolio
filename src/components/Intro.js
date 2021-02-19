@@ -8,8 +8,8 @@ export default function Intro() {
             <hr id="introdivider"></hr>
             <Typical
         steps={['Interactive', 1000, 'Interactive Portfolio', 500]}
-        loop={2}
-        wrapper="p"
+        loop={1}
+        wrapper="h1"
              />
             </div>
             <div className="icons">
