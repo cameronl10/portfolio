@@ -13,10 +13,10 @@ export default function Intro() {
              />
             </div>
             <div className="icons">
-                <a id="instaicon" href="https://www.instagram.com/cameron.l1/" target="_blank">
+                <a rel="noreferrer" id="instaicon" href="https://www.instagram.com/cameron.l1/" target="_blank">
                  <i class="fab fa-instagram"></i>
                 </a>
-                <a id="githubicon" href="https://github.com/cameronl10" target="_blank">
+                <a rel="noreferrer" id="githubicon" href="https://github.com/cameronl10" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
