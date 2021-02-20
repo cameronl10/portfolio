@@ -1,13 +1,13 @@
 
 .intropage{
   background-color:grey;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .introwriting{
   flex-direction:column;
   padding-top:10vh;
   text-align:center;
-  color:white;
+  color:rgb(223, 238, 245);
   width:50%;
   margin: 0 auto;
   background-color:trasnparent;
@@ -39,5 +39,48 @@
 
 .homepage{
   background-color:white;
+}
+.homewriting{
+  padding-top: 4rem;
+  justify-content: center;
+  text-align:center;
+}
+#aboutmeid{
+  color:rgb(126, 195, 223);
+}
+#aboutmep{
+  color:rgb(56, 80, 90);
+  display:block;
+  padding:5vh;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container{
+  display:flex ;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+  background-color:rgb(172, 172, 172);
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 50vh;
+}
+.column{
+  flex:1;
+  text-align:center;
+  border-bottom: 2px solid rgb(223, 238, 245);;
+  border-right: 1px solid rgb(223, 238, 245);;
+}
+.experiencecontainer{
+  flex-wrap: wrap;
+  background-color:white;
+  min-height:100vh;
+  justify-content:center;
+  text-align:center;  
+}
 
+.experiencecard{
+  flex:1;
 }
