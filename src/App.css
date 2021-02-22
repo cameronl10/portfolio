@@ -17,26 +17,36 @@
 #introdivider{
   opacity:0.5;
 }
+#experiencedivider{
+  opacity:0.5;
+  width:50%;
+}
 .icons{
 
   text-align:center;
   flex-direction:row;
   padding:2vh;
-  font-size:10rem
+  font-size:2rem
 }
 #instaicon{
-  color:White;
+  color:rgb(223, 238, 245);
   margin-right:5vh;
   height:auto;
   transition: 0.5s;
 }
-#githubicon{
-  color:white;
+#emailicon{
+  color:rgb(223,238,245);
+  margin-left:5vh;
+  height:auto;
   transition:0.5s;
 }
-#instaicon:hover{color:purple}
+#githubicon{
+  color:rgb(223, 238, 245);
+  transition:0.5s;
+}
+#instaicon:hover{color:#0072b1}
 #githubicon:hover{color:black}
-
+#emailicon:hover{color:rgb(126, 209, 235)};
 .homepage{
   background-color:white;
 }
@@ -57,22 +67,7 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.container{
-  display:flex ;
-  margin-left:auto;
-  margin-right:auto;
-  width:75%;
-  background-color:rgb(172, 172, 172);
-  border-radius: 6px;
-  overflow: hidden;
-  min-height: 50vh;
-}
-.column{
-  flex:1;
-  text-align:center;
-  border-bottom: 2px solid rgb(223, 238, 245);;
-  border-right: 1px solid rgb(223, 238, 245);;
-}
+
 .experiencecontainer{
   flex-wrap: wrap;
   background-color:white;
@@ -80,7 +75,43 @@
   justify-content:center;
   text-align:center;  
 }
-
+#experiencetitle{
+  padding-top:2vh;
+  text-align:center;
+}
+.experience{
+  min-height:50vh;
+  background-color:grey;
+}
 .experiencecard{
   flex:1;
+}
+.projectcard{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin:10vh;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 50px 100px rgb(50 50 93 / 5%), 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 10%);
+  padding: 1vh;
+}
+#projecttitle{
+  text-align:left;
+  padding-left:2vh;
+}
+.footer{
+  min-height:20vh;
+  background-color:grey;
+}
+#footertext{
+  padding-top:5vh;
+  color:rgb(223, 238, 245);
+  text-align:center;
+  font-size:1.25rem;
+}
+#projecttext{
+  text-align:left;
+  padding-left:15vh;
 }
