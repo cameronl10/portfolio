@@ -1,18 +1,24 @@
-
 .intropage{
   background-color:grey;
-  min-height: 50vh;
+  min-height: 100vh;
 }
 .introwriting{
   flex-direction:column;
-  padding-top:10vh;
+  padding-top:5vh;
   text-align:center;
   color:rgb(223, 238, 245);
   width:50%;
   margin: 0 auto;
-  background-color:trasnparent;
+  background-color:transparent;
   overflow:hidden;
   font-size:5vh;
+}
+#navigation{
+  color:rgb(223,238,245);
+  padding-top:5vh;
+  padding-bottom:5vh;
+  text-align: center;
+  text-decoration: none;
 }
 #introdivider{
   opacity:0.5;
@@ -56,13 +62,13 @@
   text-align:center;
 }
 #aboutmeid{
-  color:rgb(126, 195, 223);
+  color:black;
 }
 #aboutmep{
-  color:rgb(56, 80, 90);
-  display:block;
-  padding:5vh;
-  margin-block-start: 1em;
+    color:rgb(56, 80, 90);
+    display:block;
+    padding:5vh;
+    margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -76,11 +82,12 @@
   text-align:center;  
 }
 #experiencetitle{
+  color:rgb(223, 238, 245);
   padding-top:2vh;
   text-align:center;
 }
 .experience{
-  min-height:50vh;
+  min-height:125vh;
   background-color:grey;
 }
 .experiencecard{
@@ -115,3 +122,16 @@
   text-align:left;
   padding-left:15vh;
 }
+#smuscrest{
+  width:5%;
+  height:2%;
+  padding-right:1rem;
+}
+.experiencesection{
+
+  display:inline-block;
+}
+a:visited { text-decoration: none;  color:rgb(223,238,245); }
+a:hover { text-decoration: none; color:rgb(223,238,245); }
+a:focus { text-decoration: none;  color:rgb(223,238,245); }
+a:hover, a:active { text-decoration: none; color:black }

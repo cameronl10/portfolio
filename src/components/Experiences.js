@@ -8,13 +8,13 @@ export default function Experiences() {
             </div>
            <div className="experiencecard">
                <div className ="projectcard">
-                   <h2 id="projecttitle">project one title</h2>
+                   <h2 id="projecttitle">Robotics</h2>
                     <p id="projecttext">
                         project one
                     </p>
                </div>
                <div className="projectcard">
-                   <h2 id="projecttitle">project two title</h2>
+                   <h2 id="projecttitle">This website</h2>
                    <p id="projecttext">
                        project two
                    </p>

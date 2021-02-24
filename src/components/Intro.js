@@ -12,7 +12,7 @@ export default function Intro() {
         wrapper="h1"
              />
             </div>
-            
+            <h3 id="navigation"><a href="">About/</a><a href="">Experiences/</a><a href="">Projects/</a><a href="">Contact</a></h3>
         </div>
     )
 }

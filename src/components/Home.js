@@ -11,6 +11,22 @@ export default function Home() {
             <div className="experience">
             <h1 id="experiencetitle">Experiences</h1>
             <hr id="experiencedivider"></hr>
+            <div className="projectcard">
+                <div className="experiencesection">
+                <h2>Education </h2>
+                <p>
+                <img src="Crest-1.png" id="smuscrest"></img> I am currently enrolled in Saint Michaels University School
+                </p>
+                </div>
+            </div>
+            <div className="projectcard">
+                <h2>Work Experience</h2>
+                <p>I have worked</p>
+            </div>
+            <div className="projectcard">
+                <h2>Volunteering</h2>
+                <p>I have volunteered</p>
+            </div>
             </div>
             
         </div>
