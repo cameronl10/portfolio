@@ -1,13 +1,8 @@
 import React from 'react'
 import Typical from 'react-typical'
-import{
-    Router,
-    Link
-} from "react-router-dom";
-
+import Navbar from './navbar';
 export default function Intro() {
     return (
-        <Router>
         <div className="intropage">
             <div className="introwriting">
             <h1>Cameron Lee</h1>
@@ -18,8 +13,7 @@ export default function Intro() {
         wrapper="h1"
              />
             </div>
-            <h3 id="navigation"><Link to="/Home">About</Link>/Experiences/Projects/Contact</h3>
+            <Navbar/>
         </div>
-        </Router>
     )
 }

@@ -1,3 +1,8 @@
+html,body{
+  scroll-behavior: smooth;
+  height:100%;
+  margin:0;
+}
 .intropage{
   background-color:grey;
   min-height: 100vh;
@@ -7,26 +12,33 @@
   padding-top:5vh;
   text-align:center;
   color:rgb(223, 238, 245);
-  width:50%;
+  width:100vw;
   margin: 0 auto;
   background-color:transparent;
   overflow:hidden;
-  font-size:5vh;
+  font-size:2vw;
 }
 #navigation{
+  font-size:1.5rem;
   color:rgb(223,238,245);
-  padding-top:5vh;
+  padding-top:15vh;
   padding-bottom:5vh;
   text-align: center;
   text-decoration: none;
 }
+a{
+  color:rgb(223,238,245);
+  text-decoration: none;
+}
 #introdivider{
   opacity:0.5;
+  width:50vw;
 }
 #experiencedivider{
   opacity:0.5;
   width:50%;
 }
+
 .icons{
 
   text-align:center;
@@ -50,17 +62,21 @@
   color:rgb(223, 238, 245);
   transition:0.5s;
 }
+a:hover{color:rgb(212, 212, 212)};
 #instaicon:hover{color:#0072b1}
 #githubicon:hover{color:black}
 #emailicon:hover{color:rgb(126, 209, 235)};
 .homepage{
-  background-color:white;
+  color:rgb(223,238,245);
 }
 .homewriting{
+  background-color:rgb(252, 249, 249);
+  min-height:25vh;
   padding-top: 4rem;
   justify-content: center;
   text-align:center;
 }
+
 #aboutmeid{
   color:black;
 }
@@ -74,36 +90,29 @@
     margin-inline-end: 0px;
 }
 
-.experiencecontainer{
-  flex-wrap: wrap;
-  background-color:white;
-  min-height:100vh;
-  justify-content:center;
-  text-align:center;  
-}
 #experiencetitle{
-  color:rgb(223, 238, 245);
+  color:black;
   padding-top:2vh;
   text-align:center;
 }
+.card-wrapper{
+  padding:2vw;
+}
 .experience{
-  min-height:125vh;
-  background-color:grey;
+  width: 100vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.experiencecard{
-  flex:1;
+.card{
+  box-sizing:border-box;
+  padding:1.5rem;
 }
-.projectcard{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin:10vh;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 50px 100px rgb(50 50 93 / 5%), 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 10%);
-  padding: 1vh;
+.projectPage{
+  min-height:100vh;
 }
+
 #projecttitle{
   text-align:left;
   padding-left:2vh;
@@ -118,6 +127,12 @@
   text-align:center;
   font-size:1.25rem;
 }
+#footertextbottom{
+  padding-top:2vh;
+  color:rgb(145, 155, 160);
+  text-align:center;
+  font-size:0.75rem;
+}
 #projecttext{
   text-align:left;
   padding-left:15vh;
@@ -126,8 +141,4 @@
   width:5%;
   height:2%;
   padding-right:1rem;
-}
-.experiencesection{
-
-  display:inline-block;
 }
