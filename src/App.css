@@ -2,6 +2,8 @@ html,body{
   scroll-behavior: smooth;
   height:100%;
   margin:0;
+  background-color:rgb(252, 249, 249);
+
 }
 .intropage{
   background-color:grey;
@@ -12,7 +14,6 @@ html,body{
   padding-top:5vh;
   text-align:center;
   color:rgb(223, 238, 245);
-  width:100vw;
   margin: 0 auto;
   background-color:transparent;
   overflow:hidden;
@@ -70,7 +71,6 @@ a:hover{color:rgb(212, 212, 212)};
   color:rgb(223,238,245);
 }
 .homewriting{
-  background-color:rgb(252, 249, 249);
   min-height:25vh;
   padding-top: 4rem;
   justify-content: center;
@@ -99,13 +99,17 @@ a:hover{color:rgb(212, 212, 212)};
   padding:2vw;
 }
 .experience{
-  width: 100vw;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+#projectonecard{
+  padding-bottom:1vh;
+}
 .card{
+  margin-right:2vw;
+  margin-left:2vw;
   box-sizing:border-box;
   padding:1.5rem;
 }
@@ -141,4 +145,10 @@ a:hover{color:rgb(212, 212, 212)};
   width:5%;
   height:2%;
   padding-right:1rem;
+}
+img{
+  vertical-align: middle;
+  max-height: 95vh;
+  
+  margin-right: 10px;
 }
